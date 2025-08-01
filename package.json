@@ -1,0 +1,20 @@
+{
+  "name": "aloha-releases",
+  "version": "0.0.0",
+  "description": "Aloha Desktop Releases",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:plugins",
+    "test:plugins": "node -e \"JSON.stringify(require('./plugins.json'))\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antarasi/aloha-releases.git"
+  },
+  "author": "antarasi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antarasi/aloha-releases/issues"
+  },
+  "homepage": "https://github.com/antarasi/aloha-releases#readme"
+}
