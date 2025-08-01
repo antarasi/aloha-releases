@@ -3,10 +3,10 @@ Aloha Desktop Metadata and Release Registry
 
 # How to make your plugin discoverable in Aloha Desktop Agent?
 
-Open `plugins.json` file and create a Pull Request updating `community` section with details of your plugin:
+Open `plugins.json` file and create a Pull Request adding an entry with details of your plugin:
 
 ```json
-"community": [
+[
     ...
     {
         "repo": "username/aloha-repo-name",
