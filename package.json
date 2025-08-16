@@ -4,8 +4,9 @@
   "description": "Aloha Desktop Releases",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test:plugins",
-    "test:plugins": "node -e \"JSON.stringify(require('./plugins.json'))\""
+    "test": "npm run test:plugins && npm run test:models",
+    "test:plugins": "node -e \"JSON.stringify(require('./plugins.json'))\"",
+    "test:models": "node -e \"JSON.stringify(require('./models.json'))\""
   },
   "repository": {
     "type": "git",
