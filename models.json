@@ -1,19 +1,6 @@
 [
     {
-        "name": "gpt-oss",
-        "tools": true,
-        "thinking": true,
-        "description": "Open-source model from OpenAI",
-        "tags": [
-            {
-                "name": "20b"
-            }
-        ]
-    },
-    {
         "name": "qwen3",
-        "tools": true,
-        "thinking": true,
         "description": "Open-source model from Alibaba",
         "tags": [
             {
@@ -24,6 +11,15 @@
             },
             {
                 "name": "8b"
+            }
+        ]
+    },
+    {
+        "name": "gpt-oss",
+        "description": "Open-source model from OpenAI",
+        "tags": [
+            {
+                "name": "20b"
             }
         ]
     }
