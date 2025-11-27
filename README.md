@@ -1,30 +1,30 @@
 # aloha-releases
-Aloha Desktop Metadata and Release Registry
 
-# How to make your plugin discoverable in Aloha Desktop Agent?
+<img src=".github/assets/icon.png" alt="Aloha Desktop Icon" width="60">
 
-Open `plugins.json` file and create a Pull Request adding an entry with details of your plugin:
+This is Aloha Desktop Metadata and Release Registry.
 
-```json
-[
-    ...
-    {
-        "repo": "username/aloha-repo-name",
-        "name": "Display Name",
-        "author": "your name",
-        "description": "Short description what your plugin does",
-        "icon": "https://raw.githubusercontent.com/username/aloha-repo-name/refs/heads/main/public/icon.svg"
-    }
-]
-```
+Aloha Desktop is a powerful, extendable AI assistant that runs entirely on your computer.
 
-Once your Pull Request is reviewed and merged your plugin will show up on the list of plugins in the app.
+Get Aloha Desktop on [alohadesktop.com](https://alohadesktop.com/)
 
-> **Note:** You only need to submit the plugin once. After your plugin has been published, users can download and update to new releases from the app.
+## Resources
+- [All downloads (Releases)](https://github.com/antarasi/aloha-releases/releases)
+- [Plugin Development Docs](https://docs.alohadesktop.com/)
+- [SDK](https://github.com/antarasi/aloha-sdk)
+- [Vite Template](https://github.com/antarasi/vite-aloha)
+- [EULA](https://github.com/antarasi/aloha-releases/blob/main/LICENSE)
 
-# Publishing Requirements
+## Issues
+- [Bug](https://github.com/antarasi/aloha-releases/issues/new?template=bug_report.md)
+- [Feature request](https://github.com/antarasi/aloha-releases/issues/new?template=feature_request.md)
+- [Plugin Requirements Violation](https://github.com/antarasi/aloha-releases/issues/new?template=requirements_violation.md)
+- [Other issue](https://github.com/antarasi/aloha-releases/issues/new?template=BLANK_ISSUE)
 
-1. Published as a release on GitHub - preferably use the [offcial vite based workflow](https://github.com/antarasi/vite-aloha)
-1. The repo name must be prefixed with `aloha-`
-1. The plugin must be open source
-1. No telemetry - respect users privacy
+## Core Plugins
+- [aloha-visit-website](https://github.com/antarasi/aloha-visit-website)
+- [aloha-internet-search](https://github.com/antarasi/aloha-internet-search)
+
+## Plugin Examples
+- [aloha-stock-trade](https://github.com/antarasi/aloha-stock-trade)
+    
